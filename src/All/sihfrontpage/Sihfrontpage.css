@@ -1,0 +1,43 @@
+body{
+    margin: 0 ;
+    border: 0;
+    box-shadow: 0;
+    padding: 0;
+}
+.navbar{
+    background: black;
+    color: white;
+height: 75px;
+}
+.navbar span{
+    margin-left: 20px;
+  margin-right:40% ;
+    
+}
+.navbar a{
+    margin: 13px 30px;
+/* border: 1px solid rgb(0, 255, 98); */
+ display: flex-inline;
+flex-direction: row;
+color: white;
+text-decoration: none;
+
+}
+.btn_navbar{
+  cursor: pointer;
+    background: rgb(255, 253, 253);
+    border: none;
+    border-radius: 10px 10px;
+    width: 5%;
+    height: 40px;
+    font-weight: 600;
+   margin: 15px 10px;
+}
+
+.backg{
+margin:0px;
+    height: 700px ;
+    width: 1440px;
+    background: url("/Users/kunalrawal/Downloads/reactjs/Parallax-Header-for-Blog-2.png") center center no-repeat ;
+  /* position:absolute; */
+}

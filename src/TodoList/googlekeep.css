@@ -1,0 +1,188 @@
+*{
+  
+    padding: 0;
+    margin: 0;
+
+
+  }
+  body{
+    padding: 0;
+    margin: 0 ;
+  
+    height: 100%;
+    width: 100%;
+      background-image: url(../img/colorful-background-texture-multi-color-orange-illustration-3840x2715-3104.jpg);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: center;
+
+  }
+.Head{
+    height: 100px;
+    width: 100%;
+display: flex;
+
+background: #FFF5E0;
+
+align-items: center;
+box-shadow: 2px 2px 9px 2px ;
+}
+
+h1{
+  /* border: 1px solid black; */
+  text-align: center;
+  margin: auto;
+-webkit-text-stroke: 0.3vw black;
+text-transform: uppercase;
+letter-spacing: 5px;
+}
+
+
+footer{
+  position: absolute;
+bottom: 0;
+width: 100%;
+}
+footer p{
+text-align: center;
+
+}
+.main_note{
+
+  /* border: 1px solid red; */
+  height: auto;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 0px 20px 0px grey;
+margin: auto;
+border-radius: 20px 20px;
+margin-top:10px ;
+background: #eaeaeabd;
+}
+
+.main_note::before{
+  background: rgb (241,241,241);
+
+  /* border: 2px solid greenyellow; */
+  backdrop-filter: blur(5px);
+  z-index: -1;
+}
+
+
+.main_note form{
+
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  padding: 15px 10px 5px 10px;
+position: relative;
+
+}
+form ::placeholder{
+  color: black;
+}
+input{
+margin: 5px 10px;
+border: none;
+width: auto;
+background: transparent;
+outline: none;
+font-weight: 500;
+color: black;
+font-size: 20px;
+}
+
+form textarea{
+margin: 5px 10px;
+border: none;
+outline: none;
+background: transparent;
+
+}
+ .btn {
+width: 50px;
+
+height: 50px;
+border-radius: 20px 20px;
+outline: none;
+border: none;
+position: absolute;
+ cursor: pointer;
+ border-radius: 50% !important;
+}
+.plus{
+  color: black;
+}
+.btn :hover{
+  color: #0066ff;
+}
+.note_box{
+  /* height: auto; */
+  width: 250px;
+ 
+  box-shadow: 0 0 10px 0px grey;
+border-radius: 7px;
+margin-top:30px ;
+float: left;
+padding: 10px;
+margin: 16px;
+
+/* background: white; */
+/* background: transparent; */
+background: #eaeaeabd;
+
+transform:
+perspective(750px)
+translate3d(0px, 0px, -250px)
+rotateX(0deg)
+scale(0.9, 0.9);
+border-radius: 20px;
+border: 5px solid #e6e6e6;
+box-shadow: 0 70px 40px 0px rgba(0, 0, 0, 0.153);
+transition: 0.4s ease-in-out transform;
+
+
+}
+.note_box::before{
+  background: rgb (241,241,241);
+
+  /* border: 2px solid greenyellow; */
+  backdrop-filter: blur(1px);
+  z-index: -1;
+}
+
+.note_box:hover {
+  transform: translate3d(0px, 0px, -250px);
+}
+
+.note_box h2, p{
+  margin: auto;
+  color: black;
+
+}
+.note_box .btn_remove{
+
+position: relative;
+float: right;
+margin-right: 10px;
+color: #f4b300;
+/* color: greenyellow; */
+border: none;
+width: 50px;
+height: 50px;
+background: transparent;
+cursor: pointer;
+outline: none;
+box-shadow: 3px 3px 15px -10px rgba(0, 0, 0, 0.4);
+border-radius: 50%;
+}
+.deleteicon {
+  width: 0.7em;
+  height: 0.7em;
+  
+}
+.deleteicon:hover{
+  color: red;
+}

@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+  height: 100%;
+  width: 100%;
+ padding:0 ;
+box-sizing: border-box;
+
+   background:#FCD029;
+ /* background: url('/Users/kunalrawal/Downloads/reactjs/myapp/number.jpg'); */
+
+    align-items: center;
+  }
+
+.main{
+    height: 100%;
+    width: 100%;
+ 
+}
+.box{
+background: #19baff;
+/* background: url('/Users/kunalrawal/Downloads/reactjs/myapp/qhWT5273446.jpg'); */
+
+    height: 50vh;
+    /* border: 1px solid red; */
+    width: 20%;
+    display: inline-flexbox;
+
+    align-items: center;
+justify-items: center;
+
+margin:  10% 40% ;
+border-radius: 15px 15px 15px 15px;
+
+box-shadow: 1px 0px 10px 7px #EAF4F5;
+  
+}
+h1{
+    text-align: center;
+    background: #EAf4ea;
+    
+margin: 10px 0;
+}
+.btn_div{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.btn_add
+{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 25px;
+    border: none;
+    background: #fcbd29;
+  margin: 35px 45px;
+color: black;
+    cursor: pointer;
+    font-size: 20px;
+
+}
+.btn_add:hover{
+    color: black;
+    box-shadow: 2px 2px 2px 2px;
+
+}
+.btn_remove:hover{
+  color: black;
+  box-shadow: 2px 2px 2px 2px;
+}

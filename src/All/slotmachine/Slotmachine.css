@@ -1,0 +1,26 @@
+body {
+    margin: 0;
+  
+    padding:0 ;
+    box-sizing: border-box;
+    background: rgb(42, 141, 255);
+  }
+  
+.heading{
+    text-align: center;
+    font-size: 25px;
+    color: black;
+    background: white;
+margin-top: 0px;
+padding: 30px 0;
+height: 25px;
+letter-spacing: 2px;
+
+}
+.slotmachine{
+margin: 0 35%;
+    border:2px solid blue;
+    width:400px;
+    box-shadow: 0px 3px 3px;
+    background: wheat;
+}
